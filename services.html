@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://dhruvhegde.qoom.space/services.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dhruv's Website</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://dhruvhegde.qoom.space/icony.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./services_files/css" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: 'Jost';font-size: 22px;
+  padding: 20px;
+  background:  linear-gradient(to bottom right, #999999 0%, #000000 100%);
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 20px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin-left: 30px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    border-style: double;
+	border-width: 7px;
+	margin-left: 230px;
+   
+}
+a:hover{
+    background: #f5a102;
+    color: #47ceff;
+    box-shadow: 0 0 22px #ffc659,
+                0 0 22px #ffc659,
+                0 0 22px #ffc659,
+                0 0 22px #ffc659;
+                0 0 22px #ffc659;
+}
+a:nth-child(1){
+    filter: hue-rotate(0deg);
+}
+a:nth-child(2){
+    filter: hue-rotate(10deg);
+}
+a:nth-child(3){
+    filter: hue-rotate(20deg);
+}
+a:nth-child(4){
+    filter: hue-rotate(30deg);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg,transparent,#47ceff);
+    animation: animate1 0.2s linear infinite;
+    animation-delay: 0.1s;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#47ceff);
+    animation: animate2 0.2s linear infinite;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(270deg,transparent,#47ceff);
+    animation: animate3 0.2s linear infinite;
+    animation-delay: 0.2s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+a span:nth-child(4){
+    bottom: 100%;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(270deg,transparent,#47ceff);
+    animation: animate4 0.2s linear infinite;
+    animation-delay: 0.3s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  width: 1400px;
+  margin-left: 230px;
+  text-align: center;
+  border-style: double;
+  border-width: 17px;
+  background: linear-gradient(to top left, #ffff66 0%, #993366 104%);;
+  border-radius: 30px;
+  rgba(0,172,238,1) 0%, 
+  rgba(2,126,251,1) 100%);
+  transition: transform 1s;
+}
+.wrapper {
+  height: 22vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.header:hover{
+  transform: scale(1.15);
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: center;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  border-radius: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.topnav {
+  text-align: center;
+  overflow: hidden;
+  background-color: 595959;
+  border-radius:20px;
+  color: black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.roundimg {
+  border-radius: 20%;
+  border-style: double;
+  border-width: 10px;
+}
+.topnav a.active {
+  background-color: #bfbfbf;
+  color: black;
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.is-style-rounded img {
+border-radius:10%;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="wrapper">
+    <div class="typing-demo">
+      Services &amp; Commissions
+    </div>
+</div>
+</div>
+<br>
+<div class="topnav">
+  <a href="https://dhruvhegde.qoom.space/services.html#home">Home</a>
+  <a class="active" href="https://dhruvhegde.qoom.space/services.html">Services</a>
+  <a href="https://dhruvhegde.qoom.space/services.html#Contact">Contact</a>
+  <a href="https://dhruvhegde.qoom.space/services.html#Projects">Projects</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1>Web Development Services </h1>
+      <br><br>
+      <table>
+  <tbody><tr>
+    <th>Package</th>
+    <th>Price</th>
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td>Basic Plan</td>
+    <td>$5</td>
+    <td>1 week</td>
+  </tr>
+  <tr>
+    <td>Business Plan</td>
+    <td>$10</td>
+    <td>2 weeks</td>
+  </tr>
+  <tr>
+    <td>Professional Plan</td>
+    <td>$15</td>
+    <td>2 weeks</td>
+  </tr>
+</tbody></table>
+
+    </div>
+  </div>
+</div>
+
+
+</body></html>
